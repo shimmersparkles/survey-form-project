@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="surveyform.css" rel="stylesheet">
+<title>Survey Form Project</title>
+    </head>
+    <header><h1 id="title">Survey Form Project</header>
+    <body>
+      <div class="survey-box">
+        <div class="row">
+          <div class="left-col">
+       <h1 id="title">Personal Survey Form</h1>
+            <hr>
+         <p id="description">This is a fun survey form for my freeCodeCamp project!</p>
+                 
+                        
+                        <form id=survey-form>
+                
+                          <label for="name" id="name-label">Name:</label> <input type="text" placeholder="Name" id="name" field id="name-label" required>
+                          <br><br>
+                 
+                  <label for="email" id="email-label">Email:</label> <input type="email" placeholder="Email" id="email" field id="email-label" required>
+                         
+ <br><br><label for="number" id="number-label">Age:</label> <input type="number" placeholder="Number" id="number" required min="1" max="150"><br><br>
+                 <label for="orientation">Sun Sign:</label>
+                 <select id="dropdown">
+                   <option value="aquarius">Aquarius</option>
+                   <option value="pisces">Pisces</option>
+                   <option value="aries">Aries</option>
+                   <option value="capricorn">Capricorn</option>
+                   <option value="taurus">Taurus</option>
+                   <option value="sagittarius">Sagittarius</option>
+                   <option value="cancer">Cancer</option>
+                   <option value="leo">Leo</option>
+                   <option value="libra">Libra</option>
+                   <option value="scorpio">Scorpio</option>
+                   <option value="capricorn">Virgo</option>
+                   <option value="gemini">Gemini</option>
+                 </select> 
+                 
+                          <h3>Which do you prefer?</h3> 
+ 
+                           <p>Dogs or Cats?</p> 
+                   <input type="radio" id="dog" name="dog-cat" value="dog">
+           <label for="dog">Dogs</label><br><input type="radio" id="cats" name="dog-cat" value="cats">
+           <label for="cats">Cats</label><br>
+ 
+           <p>Rain or Snow?</p> 
+           <input type="radio" id="rain" name="rain-snow" value="rain">
+   <label for="rain">Rain</label><br><input type="radio" id="snow" name="rain-snow" value="snow">
+   <label for="snow">Snow</label><br>
+ 
+   <p>Sun or Moon?</p> 
+   <input type="radio" id="sun" name="sun-moon" value="sun">
+ <label for="sun">Sun</label><br><input type="radio" id="moon" name="sun-moon" value="moon">
+ <label for="moon">Moon</label><br>
+ 
+ <p>Salty or Sweet?</p> 
+   <input type="radio" id="salty" name="salty-sweet" value="salty">
+ <label for="salty">Salty</label><br><input type="radio" id="sweet" name="salty-sweet" value="sweet">
+ <label for="sweet">Sweet</label><br>
+ <p>Forest or Ocean?</p> 
+   <input type="radio" id="forest" name="forest-ocean" value="forest">
+ <label for="forest">Forest</label><br><input type="radio" id="ocean" name="forest-ocean" value="ocean">
+ <label for="ocean">Ocean</label><br>
+ 
+ <p>Fruits or Vegetables?</p> 
+   <input type="radio" id="fruits" name="fruits-vegetables" value="fruits">
+ <label for="fruits">Fruits</label><br><input type="radio" id="vegetables" name="fruits-vegetables" value="vegetables">
+ <label for="vegetables">Vegetables</label><br>
+
+ <p>Water or Fire?</p> 
+ <input type="radio" id="water" name="water-fire" value="water">
+<label for="water">Water</label><br><input type="radio" id="fire" name="water-fire" value="fire">
+<label for="fire">Fire</label><br>
+                          <p>Coffee or Tea?</p> 
+ <input type="radio" id="coffee" name="coffee-tea" value="coffee">
+<label for="coffee">Coffee</label><br><input type="radio" id="tea" name="coffee-tea" value="tea">
+<label for="tea">Tea</label><br>
+                           <p>Apple or PC?</p> 
+ <input type="radio" id="apple" name="apple-pc" value="apple">
+<label for="apple">Apple</label><br><input type="radio" id="PC" name="apple-pc" value="PC">
+<label for="PC">PC</label><br>
+                              <p>Wine or Beer?</p> 
+ <input type="radio" id="wine" name="wine-beer" value="wine">
+<label for="wine">Wine</label><br><input type="radio" id="beer" name="wine-beer" value="beer">
+<label for="beer">Beer</label><br>
+                          <h3>What do you like?</h3>
+                          <input type="checkbox" id="likes" name="candy" value="2"><label for="candy">Candy</label>
+                            <input type="checkbox" id="likes" name="icecream"value="2"><label for="icecream">Ice Cream</label>
+                            <input type="checkbox" id="likes" name="clouds"value="2"><label for="clouds">Clouds</label>
+                            <input type="checkbox" id="likes" name="videogames"value="2"><label for="videogames">Video Games</label>
+                            <input type="checkbox" id="likes" name="sports"value="2"><label for="sports">Sports</label>
+                           <input type="checkbox" id="likes" name="reading"value="2"><label for="reading">Reading</label>
+                          <input type="checkbox" id="likes" name="writing"value="2"><label for="writing">Writing</label><br>
+                          <input type="checkbox" id="likes" name="tv"value="2"><label for="tv">TV</label>
+                               <input type="checkbox" id="likes" name="hiking"value="2"><label for="hiking">Hiking</label>
+                          <input type="checkbox" id="likes" name="food"value="2"><label for="food">Food</label>
+                          <input type="checkbox" id="likes" name="sleeping"value="2"><label for="sleeping">Sleeping</label>
+                           <input type="checkbox" id="likes" name="anime"value="2"><label for="anime">Anime</label>
+                           <input type="checkbox" id="likes" name="board-games"value="2"><label for="board-games">Board Games</label>
+                           <input type="checkbox" id="likes" name="nature"value="2"><label for="nature">Nature</label>
+                           <input type="checkbox" id="likes" name="origami"value="2"><label for="origami">Origami</label>
+                          <label for="text-area"><p><h3>Tell me about yourself</h3></p></label>
+                 <textarea id="yourself" rows="10" cols="90">Write here</textarea> 
+                                    <label for="text-area"><p><h3>How are you spending your time during social distancing?</h3></p></label><textarea id="social" rows="10" cols="90">Write here</textarea> 
+                 <br>
+                 <button type="submit" id="submit">Submit</button>
+                 </form>
+            <br>
+ *answers will not be shared all information is confidential.
+           
+               </div>
+        </div>
+      </div>
+                     </body>
+                 </html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Armata&display=swap');
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-align: center;
+  color: pink;
+  margin-top: -5px;
+  margin-left: 20px;
+}
+
+hr {
+    display: block;
+    margin-top: -20px;
+    margin-left: 20px;
+    border-top: 7px dashed pink;
+    border-bottom: none;
+}
+
+#survey-form {
+    font-family: 'Armata', sans-serif;
+    line-height: 1.8;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  background-color: #fff;
+  font-family: 'Armata', sans-serif;
+  line-height: 1.5;
+  background-color: lavender;
+}
+
+.survey-box {
+  margin: auto;
+  background: #fff;
+  border-radius: 30px;
+  border: 1px solid black;
+  overflow: auto;
+  width: 700px;
+  height: 2200px;
+  position: center;
+  display: flex;
+  padding: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+  button {
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: pink;
+    padding: 5px 10px 8px 10px;
+    font-family: 'Armata', sans-serif;
+    font-size: 15px;
+    border-width: 1px;
+  }
+
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out, ease-out;
+  }
+  
+ @keyframes background-color {
+    100% {
+      color: white;
+    }
+  }
